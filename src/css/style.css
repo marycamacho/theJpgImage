@@ -1,0 +1,51 @@
+body {
+    background-color: grey;
+    font-family: serif;
+    color: black;
+}
+header h1 {
+    color: blue;
+}
+
+.well {
+    border-radius: 0;
+    border: 1px dotted blue;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.left {
+    border-right: 1px dotted blue;
+    width: 30%;
+}
+
+.mid {
+    border-right: 1px dotted blue;
+    border-left: 1px dotted blue;
+    width: 50%;
+    margin: 0 1px;
+}
+
+.right {
+    border-left: 1px dotted blue;
+    width: 30%;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+
+.centered {
+    text-align: center;
+}
+td, th {
+    vertical-align:top;
+    padding: 20px;
+}
+
+
+
+
